@@ -14,7 +14,7 @@ const icons = [
 export const Statistics = ({ title, stats }) => {
   return (
     <>
-      <StatisticTitle>{title}</StatisticTitle>
+      {title && <StatisticTitle>{title}</StatisticTitle>}
 
       <StatisticsList>
         {stats.map(({ id, title, total }, index) => (
