@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import { theme } from 'styles';
-
+console.log(theme);
 export const BaseTable = styled.table`
   width: 100%;
   border-collapse: collapse;
